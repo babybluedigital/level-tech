@@ -1,5 +1,6 @@
 <script setup>
 import TechHeader from './components/TechHeader.vue'
+import TechPost from './components/TechPost.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import TechHeader from './components/TechHeader.vue'
   </header>
 
   <main>
+    <TechPost />
     <TechHeader />
   </main>
 

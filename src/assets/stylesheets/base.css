@@ -1,4 +1,4 @@
-/* Reset styles */
+/* Reset styles Here */
 html {
   box-sizing: border-box;
 }
@@ -9,7 +9,10 @@ html {
   padding: 0;
 }
 
-/* Typography */
+/* Reset styles Here */
+
+/* Base Typography Starts Here */
+
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -27,7 +30,10 @@ a {
   text-decoration: none;
 }
 
-/* Layout */
+/* Base Typographye Ends Here */
+
+/* Base Layout Starts Here */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -44,3 +50,5 @@ a {
   flex: 1;
   padding: 0 15px;
 }
+
+/* Base Layout Ends Here */

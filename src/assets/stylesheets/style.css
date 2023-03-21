@@ -1,11 +1,12 @@
-/* Colors */
+/* Global Colors Start Here */
 :root {
   --primary-color: #007bff;
   --secondary-color: #6c757d;
   --background-color: #f8f9fa;
 }
 
-/* Forms */
+/* Global Colors End Here */
+/* Forms Styling Starts Here */
 input[type=text],
 input[type=email],
 input[type=password],
@@ -26,7 +27,8 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* Buttons */
+/* Forms Styling Ends Here */
+/* Buttons Styling Starts Here */
 .btn {
   display: inline-block;
   padding: 10px 15px;
@@ -45,3 +47,5 @@ input[type=submit] {
 .btn-secondary:hover {
   opacity: 0.8;
 }
+
+/* Buttons Styling Ends Here */
