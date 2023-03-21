@@ -12,7 +12,7 @@ import TechPost from './components/TechPost.vue'
   </header>
 
   <main>
-    
+    <TechPost />
   </main>
 </template>
 
