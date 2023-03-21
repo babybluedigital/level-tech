@@ -1,5 +1,5 @@
 <script setup>
-import TechPost from './components/TechPost.vue'
+import TechHeader from './components/TechHeader.vue'
 </script>
 
 <template>
@@ -12,8 +12,9 @@ import TechPost from './components/TechPost.vue'
   </header>
 
   <main>
-    <TechPost />
+    <TechHeader />
   </main>
+
 </template>
 
 <style scoped>
