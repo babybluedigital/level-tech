@@ -52,3 +52,18 @@ a {
 }
 
 /* Base Layout Ends Here */
+
+/* List Layout Starts Here */
+
+.v-list {
+  --indent-padding: 0px;
+  display: flex;
+  gap: 20px !important;
+  padding: 0%;
+}
+
+.v-list-item {
+  padding: 0% !important;
+}
+
+/* List Layout Ends Here */

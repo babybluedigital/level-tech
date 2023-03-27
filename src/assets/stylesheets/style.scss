@@ -12,6 +12,40 @@ $background-color: #f8f9fa;
 
 /* Global Colors End Here */
 
+/* Header Styling Starts Here */
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 1% 6%;
+  width: 100%;
+}
+
+.tech_header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tech_logo {
+  max-width: 30%;
+  height: auto;
+}
+
+.tech_cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+/* Header Styling Ends Here */
+
 /* Forms Styling Starts Here */
 
 input[type="text"],
