@@ -30,14 +30,6 @@
     min-height: 0px;
 }
 
-.v-overlay__content {
-    outline: none;
-    position: absolute;
-    pointer-events: auto;
-    contain: layout;
-    top: 65px !important;
-}
-
 </style>
 
 <template>
@@ -58,7 +50,7 @@
         <!-- Menu Starts Here -->
         <div class="tech_menu">
 
-          <v-menu open-on-hover scoped>
+          <v-menu open-on-hover>
             <template v-slot:activator="{ props }" scoped>
               <v-btn variant="plain" append-icon="mdi-chevron-down" v-bind="props">Platform</v-btn>
             </template>
@@ -109,16 +101,16 @@ export default {
   data() {
     return {
       platformItems: [
-        { title: 'Click Us', href: 'https://www.netlify.com/' },
-        { title: 'Click Us', href: 'https://www.netlify.com/' },
-        { title: 'Click Us', href: 'https://www.netlify.com/' },
-        { title: 'Click Us', href: 'https://www.netlify.com/' },
+        { title: 'Click Us', href: 'https://www.squashlevels.com/' },
+        { title: 'Click Us', href: 'https://www.squashlevels.com/' },
+        { title: 'Click Us', href: 'https://www.squashlevels.com/' },
+        { title: 'Click Us', href: 'https://www.squashlevels.com/' },
       ],
       solutionItems: [
-        { title: 'Click Me', href: 'https://www.netlify.com/' },
-        { title: 'Click Me', href: 'https://www.netlify.com/' },
-        { title: 'Click Me', href: 'https://www.netlify.com/' },
-        { title: 'Click Me', href: 'https://www.netlify.com/' },
+        { title: 'Click Me', href: 'https://www.squashlevels.com/' },
+        { title: 'Click Me', href: 'https://www.squashlevels.com/' },
+        { title: 'Click Me', href: 'https://www.squashlevels.com/' },
+        { title: 'Click Me', href: 'https://www.squashlevels.com/' },
       ],
     };
   },
