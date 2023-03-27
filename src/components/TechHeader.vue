@@ -6,7 +6,7 @@
     gap: 0px !important;
     padding: 5%;
     flex-direction: column;
-    min-width: 300px;
+    min-width: 200px;
 }
 .v-list-item {
     align-items: center;
@@ -24,6 +24,12 @@
     border-width: 0;
     border-radius: 0;
     padding: 7px 12px !important;
+}
+
+.v-menu .v-overlay__content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
 }
 
 .v-list-item--density-default.v-list-item--one-line {
