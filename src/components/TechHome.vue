@@ -22,6 +22,23 @@ section {
     flex-direction: column;
 }
 
+.testimonial-section {
+    align-items: flex-start;
+    background-color: #fbf9f4;
+}
+
+.learn-section {
+    flex-direction: column;
+}
+
+.learn-section div:first-of-type {
+    flex-direction: column;
+}
+
+.v-card {
+    flex-direction: column;
+}
+
 div {
     display: flex;
     gap: 20px;
@@ -92,7 +109,7 @@ h3 {
     <section class="column-section">
         
         <div>
-            <v-img :width="300" aspect-ratio="4/3" cover src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-img>
+            <v-img :width="500" aspect-ratio="4/3" cover src="https://cdn.vuetifyjs.com/images/parallax/material.jpg"></v-img>
         </div>
         
         <div>
@@ -106,6 +123,116 @@ h3 {
     </section>
     
     <!-- Column Section Starts -->
+    
+    <!-- Testimonial Section Starts -->
+    
+    <section class="testimonial-section">
+        
+        <h2>“Time savings is the most important thing for us. It’s been massive. I can record 150 steps in five minutes with Scribe.”</h2>
+        <h6>Mark Williams, CEO England Squash</h6>
+        <v-img :width="300" aspect-ratio="4/3" cover src="src\assets\images\ESLogo.png"></v-img>
+        
+    </section>
+    
+    <!-- Testimonial Section Endss -->
+    
+    <!-- Learn Section Starts -->
+    
+    <section class="learn-section">
+        
+        <div>
+            <h2>Want to learn more?</h2>
+            <h6>Learn how LevelTech can deliver your results.</h6>
+        </div>
+        
+        <div>
+            
+            <v-card class="mx-auto" max-width="400">
+                <v-img class="align-end text-white" height="200" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" cover>
+                    <v-card-title></v-card-title>
+                </v-img>
+                
+                <v-card-subtitle class="pt-4">
+                    Product Demo
+                </v-card-subtitle>
+                
+                <v-card-text>
+                    <div>See how LevelTech works with a short product demo.</div>
+                </v-card-text>
+                
+                <v-card-actions>
+                    <v-btn color="orange">
+                        Book Now
+                    </v-btn>
+                </v-card-actions>
+            </v-card>
+            
+            <v-card class="mx-auto" max-width="400">
+                <v-img class="align-end text-white" height="200" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" cover>
+                    <v-card-title></v-card-title>
+                </v-img>
+                
+                <v-card-subtitle class="pt-4">
+                    Case Studies
+                </v-card-subtitle>
+                
+                <v-card-text>
+                    <div>See how LevelTech has helps other sporting codes.</div>
+                </v-card-text>
+                
+                <v-card-actions>
+                    <v-btn color="orange">
+                        Book Now
+                    </v-btn>
+                </v-card-actions>
+            </v-card>
+            
+            <v-card class="mx-auto" max-width="400">
+                <v-img class="align-end text-white" height="200" src="https://cdn.vuetifyjs.com/images/cards/docks.jpg" cover>
+                    <v-card-title></v-card-title>
+                </v-img>
+                
+                <v-card-subtitle class="pt-4">
+                    Resources
+                </v-card-subtitle>
+                
+                <v-card-text>
+                    <div>Learn more with our dedicated resources.</div>
+                </v-card-text>
+                
+                <v-card-actions>
+                    <v-btn color="orange">
+                        Book Now
+                    </v-btn>
+                </v-card-actions>
+            </v-card>
+            
+        </div>
+        
+    </section>
+    
+    <!-- Learn Section Ends -->
+    
+    <!-- Ready Section Starts Here -->
+    
+<section>
+
+<div>
+
+    <h2>Ready To Try LevelTech?</h2>
+
+</div>
+
+<div>
+
+    <v-btn variant="outlined">Get Started</v-btn>
+    <v-btn append-icon="mdi-arrow-right" variant="outlined">Request Demo</v-btn>
+
+</div>
+
+</section>
+
+    <!-- Ready Section Ends Here -->
     
 </template>
 
