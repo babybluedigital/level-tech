@@ -2,69 +2,33 @@
     
     <!-- Hero Section Starts -->
     
-    <div class="hero-section">
-        <TechHomeHero />     
-    </div>
+    <TechHomeHero />     
     
     <!-- Hero Section Ends -->
     
-    
-    
     <!-- Logo Section Starts -->
     
-    <div class="hero-section">
-        <TechHomelogos />     
-    </div>
+    <TechHomelogos />
     
-    <!-- Logo Section Ends-->
+    <!-- Logo Section Ends -->
     
+    <!-- CTA Block Starts -->
     
-    <!-- Column Section Starts -->
+    <TechHomeCtaBlock />
     
-    <div class="hero-section">
-        <TechHomeCaseStudies />     
-    </div>
+    <!-- CTA Block Ends -->
     
-    <!-- Column Section Starts -->
+    <!-- Testimonial Starts Here -->
     
-    <!-- Column Section Starts -->
+    <TechHomeTestimonial />
     
-    <div class="hero-section">
-        <TechHome4Block />     
-    </div>
+    <!-- Testimonial Ends Here -->
     
-    <!-- Column Section Starts -->
+    <!-- Case Studies Start Here -->
     
+    <TechHomeCaseStudies />
     
-    
-    
-    <!-- Testimonial Section Starts -->
-    
-    <div class="hero-section">
-        <TechHomeTestimonial />     
-    </div>
-    
-    <!-- Testimonial Section Endss -->
-    
-    
-    
-    <!-- Learn Section Starts -->
-    
-    <div class="hero-section">
-        <TechHomeLearn />     
-    </div>
-    
-    <!-- Learn Section Ends -->
-    
-    
-    
-    <!-- Ready Section Starts Here -->
-    
-    <div class="hero-section">
-        <TechHomeReady />     
-    </div>
-    
-    <!-- Ready Section Ends Here -->
+    <!-- Case Studies End Here -->
     
 </template>
 
@@ -81,15 +45,15 @@ import TechHomeCaseStudies from '../HomePage/TechHomeCaseStudies.vue';
 
 export default {
     components: {
-        TechHomeHero
-        TechHomeCtaBlock
-        TechHome4Block
-        TechHomeDemoBlock
-        TechHomeLearn
-        TechHomelogos
-        TechHomeReady
-        TechHomeTestimonial
-        TechHomeCaseStudies
+        TechHomeHero,
+        TechHomeCtaBlock,
+        TechHome4Block,
+        TechHomeDemoBlock,
+        TechHomeLearn,
+        TechHomelogos,
+        TechHomeReady,
+        TechHomeTestimonial,
+        TechHomeCaseStudies,
     }
 }
 
