@@ -92,25 +92,3 @@ p {
     </section>
     
 </template>
-
-<script>
-import DunlopLogo from '@/assets/images/DunlopLogo.png';
-import ESLogo from '@/assets/images/ESLogo.png';
-import PSALogo from '@/assets/images/PSALogo.png';
-import SportyLogo from '@/assets/images/SportyLogo.png';
-import SquashSkillsLogo from '@/assets/images/SquashSkillsLogo.png';
-
-export default {
-    data() {
-        return {
-            logoItems: [
-            { href: DunlopLogo },
-            { href: ESLogo },
-            { href: PSALogo },
-            { href: SportyLogo },
-            { href: SquashSkillsLogo },
-            ],
-        };
-    },
-};
-</script>
