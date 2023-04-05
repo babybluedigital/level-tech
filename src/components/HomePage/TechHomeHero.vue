@@ -152,7 +152,7 @@ img {
             
             <div scoped>
                 
-                <h3>Power your sport with the LevelTech rating system.<br>Built with a powerful API, allowing you to reach a global audience.</h3>
+                <h3>Bringing Data-Driven Accuracy to Sports Ratings.<br>Built with a powerful API, allowing you to reach a global audience.</h3>
                 
             </div>
             
