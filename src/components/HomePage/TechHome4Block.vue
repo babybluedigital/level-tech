@@ -58,7 +58,7 @@ p {
                     <h4>Launch</h4>
                 </span>
 
-                <img  id="hero-collage-3" class="hero-collage" src="../../assets/images/VerifiedPink.svg">
+                <img  id="hero-collage-3" class="hero-collage" src="src/assets/images/VerifiedPink.svg">
                 
             </div>
             
