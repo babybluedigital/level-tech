@@ -107,9 +107,9 @@
           </v-list>
         </v-menu>
         
-        <v-btn color="secondary" variant="plain" class="menu_title">Docs</v-btn>
+        <v-btn color="secondary" variant="plain" class="menu_title" href="https://api-docs.surecart.com/">Docs</v-btn>
         
-        <v-btn color="secondary" variant="plain" class="menu_title">Pricing</v-btn>
+        <v-btn color="secondary" variant="plain" class="menu_title" href="https://draftbit.com/pricing">Pricing</v-btn>
         <!-- Menu Ends Here -->
         
       </div>

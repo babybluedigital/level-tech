@@ -1,34 +1,25 @@
 <template>
     
     <!-- Hero Section Starts -->
-    
     <TechHomeHero />     
     
-    <!-- Hero Section Ends -->
-    
     <!-- Logo Section Starts -->
-    
     <TechHomelogos />
     
-    <!-- Logo Section Ends -->
-    
     <!-- CTA Block Starts -->
-    
     <TechHomeCtaBlock />
     
-    <!-- CTA Block Ends -->
+    <!-- 4 Block Section -->
+    <TechHome4Block />
     
     <!-- Testimonial Starts Here -->
-    
     <TechHomeTestimonial />
     
-    <!-- Testimonial Ends Here -->
-    
     <!-- Case Studies Start Here -->
-    
     <TechHomeCaseStudies />
     
-    <!-- Case Studies End Here -->
+    <!-- Demo Block -->
+    <TechHomeDemoBlock />
     
 </template>
 
@@ -39,7 +30,6 @@ import TechHome4Block from '../HomePage/TechHome4Block.vue';
 import TechHomeDemoBlock from '../HomePage/TechHomeDemoBlock.vue';
 import TechHomeLearn from '../HomePage/TechHomeLearn.vue';
 import TechHomelogos from '../HomePage/TechHomeLogos.vue';
-import TechHomeReady from '../HomePage/TechHomeReady.vue';
 import TechHomeTestimonial from '../HomePage/TechHomeTestimonial.vue';
 import TechHomeCaseStudies from '../HomePage/TechHomeCaseStudies.vue';
 
@@ -51,7 +41,6 @@ export default {
         TechHomeDemoBlock,
         TechHomeLearn,
         TechHomelogos,
-        TechHomeReady,
         TechHomeTestimonial,
         TechHomeCaseStudies,
     }

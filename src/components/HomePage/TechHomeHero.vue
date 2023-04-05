@@ -2,6 +2,7 @@
 
 .hero-section {
     min-height: 100vh;
+    z-index: 10;
 }
 
 .hero-section-center {
@@ -12,6 +13,7 @@
     align-items: center;
     gap: 25px;
     flex-grow: 1;
+    z-index: 10;
 }
 
 .hero-section-left {
@@ -36,6 +38,7 @@ div .hero-background-block:first-child {
     position: absolute;
     bottom: 14%;
     left: 31%;
+    z-index: -1;
 }
 
 div .hero-background-block:nth-child(2) {

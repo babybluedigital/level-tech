@@ -53,6 +53,25 @@ h3 {
   color: #181a1c;
 }
 
+
+h4 {
+  line-height: 36px;
+  color: #4EE7C0;
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 1em;
+  line-height: 36px;
+  color: #171333;
+  font-weight: 700;
+  letter-spacing: .15rem;
+  text-transform: unset;
+}
+
 /* Base Typographye Ends Here */
 
 /* Base Layout Starts Here */
@@ -66,6 +85,11 @@ section {
   gap: 10px;
   padding: 5% 8%;
   flex-wrap: wrap;
+  z-index: 10;
+}
+
+#shadow-host-companion {
+  display: none;
 }
 
 .container {

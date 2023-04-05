@@ -119,7 +119,7 @@ h3 {
             </v-card>
             
             <v-card class="mx-auto" max-width="400">
-                <v-img class="align-end text-white" height="200" src="src/assets/images/PaddleBlue.png" cover>
+                <v-img class="align-end text-white" height="200" src="src/assets/images/PaulGlaze.jpg" cover>
                     <v-card-title></v-card-title>
                 </v-img>
                 <div class="card_details">
