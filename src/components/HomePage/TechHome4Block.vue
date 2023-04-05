@@ -85,8 +85,7 @@ p {
         </div>
         
         <div>
-            <v-img class="align-end text-white" height="600" src="src/assets/images/92104-real-time-coding.gif">
-            </v-img>
+            <img src="src/assets/images/92104-real-time-coding.gif">
         </div>
         
     </section>
