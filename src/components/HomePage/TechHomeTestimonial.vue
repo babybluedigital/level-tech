@@ -23,6 +23,10 @@ h2 {
     letter-spacing: -0.3px;
 }
 
+.testimonial_image {
+    width: 150px;
+}
+
 </style>
 
 <template>
@@ -33,7 +37,7 @@ h2 {
         
         <h2>“The value we are able to give to our users cannot be measured, LevelTech has provided a service unmatched in the industry.”</h2>
         <h3 class="quote-title">Mark Williams, CEO England Squash</h3>
-        <v-img :width="150" aspect-ratio="4/3" cover src="src\assets\images\ESLogoRed.png"></v-img>
+        <img class="testimonial_image" src="../../assets/images/ESLogoRed.png">
         
     </section>
     
